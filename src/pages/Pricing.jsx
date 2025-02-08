@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Contact() {
+function Pricing() {
   return (
     <div className='bg-[#3f181c] h-[100vh] text-center flex justify-center items-center '>
     <h1 className='xs:text-5xl font-bold text-orange-400'>Comeing Soon</h1>
@@ -8,4 +8,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default Pricing
