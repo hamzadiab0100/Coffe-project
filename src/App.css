@@ -1,0 +1,35 @@
+.Bar{
+    position: relative;
+}
+.hamza, .pointer{
+    cursor: pointer;
+}
+.Nn::after{
+    content: "";
+    width: 0%;
+    height: 2.5px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom:-3px;
+    left: 0px;
+    transition: ease-in-out 70ms;
+}
+.Nn:hover::after{
+    width: 100%;
+}
+.hm::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    bottom:-3px;
+    left: 47px;
+    transition: ease-in-out 70ms;
+}
+.hm:hover::after{
+    width: 40%;
+}
+hr{
+    opacity: 40%;
+}
