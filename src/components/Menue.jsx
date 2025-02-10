@@ -20,14 +20,14 @@ function Menue() {
 
   return (
     <div> 
-        <section className='w-full bg-[#252525] mt-0 pb-3 text-white'>
-    <div className=' flex flex-col justify-center items-center text-center text-3xl font-bold py-10'>
+        <section className='w-full bg-[#252525] mt-0 pb-3 text-white max-w-[100%]'>
+    <div  className=' flex flex-col justify-center items-center text-center text-3xl font-bold py-10'>
       <h1>Our Menu</h1>
       <div className='bg-orange-400 w-[100px] h-[2px] mt-3'></div>
     </div>
-    <div className='container mx-auto my-3 gap-10 grid grid-cols-1 mdl:grid-cols-2 lgl:grid-cols-3 ' > {items.map((card) =>
-      <div data-aos="fade-up" className='bg-[#1e1e1e] p-2 rounded-lg sm:mx-3 xs:mx-3' key={card.id}>
-        <img className='w-52  m-5 hover:transition-transform duration-300 hover:scale-110' src={card.img} alt="" srcset="" />
+    <div className=' container mx-auto my-3 gap-10 grid grid-cols-1 mdl:grid-cols-2 lgl:grid-cols-3 ' > {items.map((card) =>
+      <div data-aos="fade-right" data-aos-offset="100" className='bg-[#1e1e1e] p-2 rounded-lg sm:mx-3 xs:mx-3' key={card.id}>
+        <img className='w-52 overflow-hidden m-5 hover:transition-transform duration-300 hover:scale-110' src={card.img} alt="" srcset="" />
         <h1 className='text-3xl font-bold m-2 '>{card.title}</h1>
         <p>{card.paragraph}</p>
       </div>
