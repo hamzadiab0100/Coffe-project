@@ -32,7 +32,7 @@ const handleSubmit =(e) =>{
   return (
     <div className='bg-[#3F181C] py-20'>
 <section className='container mx-auto grid lgl:grid-cols-[2fr_1fr] gap-10 px-3'>
-<div data-aos="fade-right" className=' bg-[#1e1e1e] flex flex-col text-white p-8 w-[100%]'>
+<div data-aos="fade-up" className=' bg-[#1e1e1e] flex flex-col text-white p-8 w-[100%]'>
     <div>
         <h1 className='xs:text-2xl  lgl:text-4xl font-bold text-orange-400 mb-2'>Need Help? Open a Ticket</h1>
         <p className='lgl:text-lg'>Our support team will get back to you ASAP via email.</p><br />
@@ -70,7 +70,7 @@ const handleSubmit =(e) =>{
     
 </div>
 
-<div data-aos="fade-left" className=' bg-[#1e1e1e] p-8 text-white'>
+<div data-aos="fade-up" className=' bg-[#1e1e1e] p-8 text-white'>
     <div className='' >
         <h1 className='xs:text-xl font-bold mdl:text-2xl text-orange-400 pb-2'>Subscribe to receive future updates</h1>
         <p className='pb-3 xs:text-sm mdl:text-lg text-base '>Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare massa quis lectus.</p>
